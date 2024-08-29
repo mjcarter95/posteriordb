@@ -1,0 +1,135 @@
+model_name	status_code	error_message
+logmesquite_logvas	2:TypeError	model() missing 6 required keyword-only arguments: 'log_weight', 'log_canopy_volume', 'log_canopy_area', 'log_canopy_shape', 'log_total_height', and 'log_density'
+GLMM1_model	5:Success	
+ldaK2	2:TypeError	model() missing 3 required keyword-only arguments: 'K', 'alpha', and 'beta__'
+bym2_offset_only	2:TypeError	model() missing 8 required keyword-only arguments: 'N_edges', 'N', 'node1', 'node2', 'y', 'E', 'scaling_factor', and 'log_E'
+logmesquite_logvolume	2:TypeError	model() missing 2 required keyword-only arguments: 'log_weight' and 'log_canopy_volume'
+M0_model	2:TypeError	model() missing 2 required keyword-only arguments: 'C' and 's'
+radon_variable_intercept_centered	5:Success	
+bones_model	2:TypeError	Abstract tracer value encountered where concrete value is expected: traced array with shape int32[].
+It arose in the jnp.arange argument 'stop'
+The error occurred while tracing the function body_fn at /home/mjc/anaconda3/lib/python3.11/site-packages/numpyro/contrib/control_flow/scan.py:280 for scan. This concrete value was not available in Python because it depends on the value of the argument x.
+
+See https://jax.readthedocs.io/en/latest/errors.html#jax.errors.ConcretizationTypeError
+earn_height	5:Success	
+eight_schools_centered	5:Success	
+hier_2pl	2:TypeError	Bounds of the scatter dimensions of updates must be the same as the bounds of the corresponding dimensions of scatter indices. For scatter dimension 0, updates bound is 2, indices bound is 3.
+GLM_Poisson_model	2:TypeError	model() missing 2 required keyword-only arguments: 'year_squared' and 'year_cubed'
+eight_schools_noncentered	5:Success	
+Survey_model	2:TypeError	model() missing 1 required keyword-only argument: 'nmin'
+kidscore_interaction_c	2:TypeError	model() missing 3 required keyword-only arguments: 'c_mom_hs', 'c_mom_iq', and 'inter'
+gp_pois_regr	2:NameError	name 'gp_exp_quad_cov_array_real_real' is not defined
+log10earn_height	2:TypeError	model() missing 1 required keyword-only argument: 'log10_earn'
+seeds_centered_model	2:TypeError	model() missing 1 required keyword-only argument: 'x1x2'
+lotka_volterra	2:AssertionError	integrate_ode_rk45: not yet implemented
+dugongs_model	5:Success	
+wells_daae_c_model	2:TypeError	model() missing 5 required keyword-only arguments: 'c_dist100', 'c_arsenic', 'da_inter', 'educ4', and 'x'
+arma11	5:Success	
+blr	5:Success	
+GLMM_Poisson_model	1:MissingDataKey	'n'
+kilpisjarvi	5:Success	
+one_comp_mm_elim_abs	2:TypeError	model() missing 3 required keyword-only arguments: 'C0', 'x_r', and 'x_i'
+wells_dae_model	2:TypeError	model() missing 3 required keyword-only arguments: 'dist100', 'educ4', and 'x'
+covid19imperial_v3	2:TypeError	model() missing 2 required keyword-only arguments: 'SI_rev' and 'f_rev'
+wells_interaction_c_model	2:TypeError	model() missing 4 required keyword-only arguments: 'c_dist100', 'c_arsenic', 'inter', and 'x'
+kidscore_interaction_z	2:TypeError	model() missing 3 required keyword-only arguments: 'z_mom_hs', 'z_mom_iq', and 'inter'
+accel_splines	2:TypeError	true_fun and false_fun output must have same type structure, got PyTreeDef((None, CustomNode(PytreeTrace[({'_expr__12': {'_control_flow_done': True, 'type': 'sample', 'name': '_expr__12', 'kwargs': {'rng_key': None, 'sample_shape': ()}, 'scale': None, 'is_observed': True, 'cond_indep_stack': [], 'infer': {'is_auxiliary': True}}}, ['_expr__12'])], [{'_expr__12': {'args': (), 'fn': CustomNode(Unit[None], [*]), 'intermediates': [], 'value': *}}]))) and PyTreeDef((None, CustomNode(PytreeTrace[({}, [])], [{}]))).
+hmm_drive_0	5:Success	
+accel_gp	2:TypeError	Abstract tracer value encountered where concrete value is expected: traced array with shape int32[].
+It arose in the jnp.arange argument 'stop'
+The error occurred while tracing the function _then__9 at /mnt/43d3396d-0fde-4593-b19b-56bfdcb2a927/coding/stan/posteriordb/posterior_database/models/numpyro_processed/accel_gp.numpyro.py:48 for jit. This value became a tracer due to JAX operations on these lines:
+
+  operation a[35m:i32[][39m = convert_element_type[new_dtype=int32 weak_type=False] b
+    from line /mnt/43d3396d-0fde-4593-b19b-56bfdcb2a927/coding/stan/posteriordb/posterior_database/models/numpyro_processed/accel_gp.numpyro.py:62:31 (_then__9)
+
+  operation a[35m:i32[][39m = add b c
+    from line /mnt/43d3396d-0fde-4593-b19b-56bfdcb2a927/coding/stan/posteriordb/posterior_database/models/numpyro_processed/accel_gp.numpyro.py:62:31 (_then__9)
+
+See https://jax.readthedocs.io/en/latest/errors.html#jax.errors.ConcretizationTypeError
+radon_hierarchical_intercept_noncentered	5:Success	
+radon_variable_intercept_slope_noncentered	5:Success	
+kidscore_momhs	5:Success	
+radon_partially_pooled_noncentered	5:Success	
+gpcm_latent_reg_irt	2:TypeError	model() missing 4 required keyword-only arguments: 'm', 'pos', 'adj', and 'W_adj'
+irt_2pl	5:Success	
+radon_variable_slope_centered	5:Success	
+logearn_height	2:TypeError	model() missing 1 required keyword-only argument: 'log_earn'
+wells_dae_c_model	2:TypeError	model() missing 5 required keyword-only arguments: 'c_dist100', 'c_arsenic', 'da_inter', 'educ4', and 'x'
+arK	5:Success	
+iohmm_reg	2:NameError	name 'ops_index' is not defined
+state_space_stochastic_level_stochastic_seasonal	2:IndexError	Array slice indices must have static start/stop/step to be used with NumPy indexing syntax. Found slice(Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>, Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>, None). To index a statically sized array at a dynamic position, try lax.dynamic_slice/dynamic_update_slice (JAX does not support dynamically sized arrays within JIT compiled functions).
+Mth_model	2:TypeError	model() missing 2 required keyword-only arguments: 'C' and 's'
+dogs_log	5:Success	
+seeds_stanified_model	2:TypeError	model() missing 1 required keyword-only argument: 'x1x2'
+Mtbh_model	2:TypeError	model() missing 2 required keyword-only arguments: 'C' and 's'
+rats_model	5:Success	
+logmesquite	2:TypeError	model() missing 6 required keyword-only arguments: 'log_weight', 'log_diam1', 'log_diam2', 'log_canopy_height', 'log_total_height', and 'log_density'
+hierarchical_gp	2:TypeError	model() missing 2 required keyword-only arguments: 'years' and 'counts'
+Rate_1_model	5:Success	
+kidscore_momhsiq	5:Success	
+nes_logit_model	2:TypeError	model() missing 1 required keyword-only argument: 'x'
+grsm_latent_reg_irt	2:TypeError	model() missing 3 required keyword-only arguments: 'm', 'adj', and 'W_adj'
+multi_occupancy	2:TypeError	true_fun and false_fun output must have same type structure, got PyTreeDef((None, CustomNode(PytreeTrace[({'_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__20': {'_control_flow_done': True, 'type': 'sample', 'name': '_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__20', 'kwargs': {'rng_key': None, 'sample_shape': ()}, 'scale': None, 'is_observed': True, 'cond_indep_stack': [], 'infer': {'is_auxiliary': True}}}, ['_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__20'])], [{'_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__20': {'args': (), 'fn': CustomNode(Unit[None], [*]), 'intermediates': [], 'value': *}}]))) and PyTreeDef((None, CustomNode(PytreeTrace[({'_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__21': {'_control_flow_done': True, 'type': 'sample', 'name': '_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__21', 'kwargs': {'rng_key': None, 'sample_shape': ()}, 'scale': None, 'is_observed': True, 'cond_indep_stack': [], 'infer': {'is_auxiliary': True}}}, ['_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__21'])], [{'_expr__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=2/0)>__Traced<ShapedArray(int32[])>with<DynamicJaxprTrace(level=1/0)>__21': {'args': (), 'fn': CustomNode(Unit[None], [*]), 'intermediates': [], 'value': *}}]))).
+nn_rbm1bJ10	2:TypeError	model() missing 7 required keyword-only arguments: 'J', 'nu_alpha', 's2_0_alpha', 'nu_beta', 's2_0_beta', 'ones__', and 'x1'
+wells_dist100_model	2:TypeError	model() missing 2 required keyword-only arguments: 'dist100' and 'x'
+Mh_model	2:TypeError	model() missing 1 required keyword-only argument: 'C'
+logmesquite_logvash	2:TypeError	model() missing 5 required keyword-only arguments: 'log_weight', 'log_canopy_volume', 'log_canopy_area', 'log_canopy_shape', and 'log_total_height'
+radon_county_intercept	5:Success	
+wells_dae_inter_model	2:TypeError	model() missing 7 required keyword-only arguments: 'c_dist100', 'c_arsenic', 'c_educ4', 'da_inter', 'de_inter', 'ae_inter', and 'x'
+logearn_interaction_z	2:TypeError	model() missing 3 required keyword-only arguments: 'log_earn', 'z_height', and 'inter'
+logmesquite_logva	2:TypeError	model() missing 3 required keyword-only arguments: 'log_weight', 'log_canopy_volume', and 'log_canopy_area'
+normal_mixture_k	3:ProbEval	Model and guide shapes disagree at site: 'theta': (5,) vs (4,)
+pilots	5:Success	
+prophet	2:TypeError	model() missing 1 required keyword-only argument: 'A'
+dogs_hierarchical	2:TypeError	model() missing 4 required keyword-only arguments: 'J', 'T', 'prev_shock', and 'prev_avoid'
+Mt_model	2:TypeError	model() missing 2 required keyword-only arguments: 'C' and 's'
+kronecker_gp	2:TypeError	model() missing 5 required keyword-only arguments: 'n2', 'x1', 'n1', 'y', and 'xd'
+logearn_interaction	2:TypeError	model() missing 2 required keyword-only arguments: 'log_earn' and 'inter'
+radon_partially_pooled_centered	5:Success	
+hmm_drive_1	5:Success	
+covid19imperial_v2	2:TypeError	model() missing 2 required keyword-only arguments: 'SI_rev' and 'f_rev'
+low_dim_gauss_mix	5:Success	
+gp_regr	2:NameError	name 'gp_exp_quad_cov_array_real_real' is not defined
+Mb_model	2:TypeError	model() missing 2 required keyword-only arguments: 'C' and 's'
+low_dim_gauss_mix_collapse	5:Success	
+hmm_example	5:Success	
+kidscore_interaction_c2	2:TypeError	model() missing 3 required keyword-only arguments: 'c2_mom_hs', 'c2_mom_iq', and 'inter'
+logistic_regression_rhs	5:Success	
+diamonds	2:TypeError	model() missing 3 required keyword-only arguments: 'Kc', 'Xc', and 'means_X'
+radon_variable_intercept_slope_centered	5:Success	
+wells_dist	5:Success	
+kidscore_interaction	2:TypeError	model() missing 1 required keyword-only argument: 'inter'
+2pl_latent_reg_irt	2:TypeError	model() missing 2 required keyword-only arguments: 'adj' and 'W_adj'
+election88_full	5:Success	
+radon_pooled	5:Success	
+radon_county	5:Success	
+sesame_one_pred_a	5:Success	
+Rate_5_model	5:Success	
+surgical_model	5:Success	
+nes	2:TypeError	model() missing 3 required keyword-only arguments: 'age30_44', 'age45_64', and 'age65up'
+dogs	5:Success	
+Rate_2_model	5:Success	
+logearn_height_male	2:TypeError	model() missing 1 required keyword-only argument: 'log_earn'
+lsat_model	2:TypeError	model() missing 2 required keyword-only arguments: 'r' and 'ones__'
+nn_rbm1bJ100	2:TypeError	model() missing 7 required keyword-only arguments: 'J', 'nu_alpha', 's2_0_alpha', 'nu_beta', 's2_0_beta', 'ones__', and 'x1'
+ldaK5	3:ProbEval	Too many indices for array: 2 non-None/Ellipsis indices for dim 1.
+dogs_nonhierarchical	2:TypeError	model() missing 4 required keyword-only arguments: 'J', 'T', 'prev_shock', and 'prev_avoid'
+radon_variable_intercept_noncentered	5:Success	
+sir	2:TypeError	model() missing 4 required keyword-only arguments: 't0', 'kappa', 'x_r', and 'x_i'
+hmm_gaussian	3:ProbEval	add got incompatible shapes for broadcasting: (2,), (3,).
+wells_interaction_model	2:TypeError	model() missing 3 required keyword-only arguments: 'dist100', 'inter', and 'x'
+mesquite	5:Success	
+radon_variable_slope_noncentered	5:Success	
+garch11	5:Success	
+radon_hierarchical_intercept_centered	5:Success	
+kidscore_mom_work	2:TypeError	model() missing 3 required keyword-only arguments: 'work2', 'work3', and 'work4'
+wells_dist100ars_model	2:TypeError	model() missing 2 required keyword-only arguments: 'dist100' and 'x'
+normal_mixture	5:Success	
+losscurve_sislob	5:Success	
+soil_incubation	2:TypeError	model() missing 2 required keyword-only arguments: 'x_r' and 'x_i'
+kidscore_momiq	5:Success	
+logearn_logheight_male	2:TypeError	model() missing 2 required keyword-only arguments: 'log_earn' and 'log_height'
+GLM_Binomial_model	2:TypeError	model() missing 1 required keyword-only argument: 'year_squared'
+Rate_3_model	5:Success	
+seeds_model	2:TypeError	model() missing 1 required keyword-only argument: 'x1x2'
+Rate_4_model	5:Success	
